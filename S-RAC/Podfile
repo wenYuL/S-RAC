@@ -1,0 +1,33 @@
+workspace  'S-RAC.xcworkspace'
+
+target 'RACSignal' do
+    platform :ios, '8.0'
+    use_frameworks!
+    project 'RACSignal/RACSignal.xcodeproj'
+    pod 'ReactiveObjC', '~> 3.0.0'
+
+end
+
+target 'RACSubject' do
+    platform :ios, '8.0'
+    use_frameworks!
+    project 'RACSubject/RACSubject.xcodeproj'
+    pod 'ReactiveObjC', '~> 3.0.0'
+
+end
+
+target 'AddTargetAction' do
+    platform :ios, '8.0'
+    use_frameworks!
+    project 'AddTargetAction/AddTargetAction.xcodeproj'
+    pod 'ReactiveObjC', '~> 3.0.0'
+
+end
+
+target 'DelegateAction' do
+    platform :ios, '8.0'
+    use_frameworks!
+    project 'DelegateAction/DelegateAction.xcodeproj'
+    pod 'ReactiveObjC', '~> 3.0.0'
+
+end 

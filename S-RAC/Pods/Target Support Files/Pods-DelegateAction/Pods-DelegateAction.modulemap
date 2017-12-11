@@ -1,0 +1,6 @@
+framework module Pods_DelegateAction {
+  umbrella header "Pods-DelegateAction-umbrella.h"
+
+  export *
+  module * { export * }
+}
